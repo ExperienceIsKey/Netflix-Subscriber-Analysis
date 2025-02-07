@@ -113,3 +113,12 @@ The database is designed to answer key business questions such as:
    1. What is the monthly revenue from subscriptions?
    2. What is the churn rate (customers who canceled their subscriptions)?
    3. How often do customers update their payment methods?
+
+ 🛠 Tech Stack Used
+ 
+1️⃣ Database & Querying
+* SQL 🗄️ – Used for data extraction, transformation, and analysis
+* BeeKeeper Studio 🛢️ – SQL editor and database management tool
+2️⃣ Data Visualization
+* Tableau 📊 – Used for creating interactive dashboards and reports
+
