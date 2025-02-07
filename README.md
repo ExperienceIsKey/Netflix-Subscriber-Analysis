@@ -75,9 +75,9 @@ The ERD visually represents the relationships between the different entities in 
 * BillingAddress (TEXT) – Address associated with the card
 
 8️⃣ Payment History Table
-PaymentID (INT, FK) – Payment method used
-PaymentAmount (DECIMAL) – Amount paid
-PaymentDate (DATE) – Date of transaction
+* PaymentID (INT, FK) – Payment method used
+* PaymentAmount (DECIMAL) – Amount paid
+* PaymentDate (DATE) – Date of transaction
 
 ![image](https://github.com/user-attachments/assets/e05f3ca3-55e5-43a8-bf11-69c3b0710fa5)
 
