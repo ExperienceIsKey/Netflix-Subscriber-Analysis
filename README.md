@@ -119,6 +119,7 @@ The database is designed to answer key business questions such as:
 1️⃣ Database & Querying
 * SQL 🗄️ – Used for data extraction, transformation, and analysis
 * BeeKeeper Studio 🛢️ – SQL editor and database management tool
+
 2️⃣ Data Visualization
 * Tableau 📊 – Used for creating interactive dashboards and reports
 
