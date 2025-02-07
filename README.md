@@ -87,29 +87,29 @@ The database is designed to answer key business questions such as:
 
 * User Engagement
 
-1. How many profiles are created per customer?
-2. What are the most watched content titles?
-3. How many hours of content has each profile watched?
+   1. How many profiles are created per customer?
+   2. What are the most watched content titles?
+   3. How many hours of content has each profile watched?
 
 * Subscription Analytics
 
-1. What is the distribution of customers per subscription plan?
-2. How many users are using ad-supported plans vs ad-free?
-3. What is the average revenue per customer?
+   1. What is the distribution of customers per subscription plan?
+   2. How many users are using ad-supported plans vs ad-free?
+   3. What is the average revenue per customer?
 
 * Device Insights
 
-1. hat are the most used device types for streaming?
-2. How many devices are linked per profile?
+   1. hat are the most used device types for streaming?
+   2. How many devices are linked per profile?
    
 * Content Performance
 
-1. Which genre is the most popular?
-2. What is the average runtime of watched content?
-3. How frequently do users return to a particular title?
+   1. Which genre is the most popular?
+   2. What is the average runtime of watched content?
+   3. How frequently do users return to a particular title?
 
 * Payment & Revenue Analysis
 
-1. What is the monthly revenue from subscriptions?
-2. What is the churn rate (customers who canceled their subscriptions)?
-3. How often do customers update their payment methods?
+   1. What is the monthly revenue from subscriptions?
+   2. What is the churn rate (customers who canceled their subscriptions)?
+   3. How often do customers update their payment methods?
