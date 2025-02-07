@@ -20,59 +20,59 @@ The ERD visually represents the relationships between the different entities in 
 📝 Database Schema & Columns
 
 1️⃣ Customers Table
-Cust_ID (INT, PK) – Unique ID for each customer
-Fname (VARCHAR) – First name
-Lname (VARCHAR) – Last name
-BDate (DATE) – Birth date
-Gender (VARCHAR) – Gender of the customer
-Email (VARCHAR) – Email address
-Country (VARCHAR) – Country of residence
-LanguagePreferred (VARCHAR) – Preferred language
+* Cust_ID (INT, PK) – Unique ID for each customer
+* Fname (VARCHAR) – First name
+* Lname (VARCHAR) – Last name
+* BDate (DATE) – Birth date
+* Gender (VARCHAR) – Gender of the customer
+* Email (VARCHAR) – Email address
+* Country (VARCHAR) – Country of residence
+* LanguagePreferred (VARCHAR) – Preferred language
 
 2️⃣ Profiles Table
-ProfileID (INT, PK) – Unique ID for each profile
-ProfileName (VARCHAR) – Profile name
-MaxParentalRating (INT) – Maximum parental rating
-NoOfChildren (INT) – Number of child profiles
-AdultAcc (BOOLEAN) – Indicates if it's an adult account
-ChildAcc (BOOLEAN) – Indicates if it's a child account
-Cust_ID (INT, FK) – Customer who owns the profile
+* ProfileID (INT, PK) – Unique ID for each profile
+* ProfileName (VARCHAR) – Profile name
+* MaxParentalRating (INT) – Maximum parental rating
+* NoOfChildren (INT) – Number of child profiles
+* AdultAcc (BOOLEAN) – Indicates if it's an adult account
+* ChildAcc (BOOLEAN) – Indicates if it's a child account
+* Cust_ID (INT, FK) – Customer who owns the profile
 
 3️⃣ Plans Table
-PlanID (INT, PK) – Unique ID for the plan
-PlanName (VARCHAR) – Name of the subscription plan
-MonthlyPrice (DECIMAL) – Monthly cost of the plan
-VideoQuality (VARCHAR) – Video quality (SD, HD, UHD)
-NumofProfiles (INT) – Maximum number of profiles allowed
-NumofSupportDevforViewing (INT) – Number of supported viewing devices
-NumofSupportDevforDownload (INT) – Number of supported download devices
-AdSupport (BOOLEAN) – Whether ads are included
-ContentAccess (TEXT) – Type of content accessible
+* PlanID (INT, PK) – Unique ID for the plan
+* PlanName (VARCHAR) – Name of the subscription plan
+* MonthlyPrice (DECIMAL) – Monthly cost of the plan
+* VideoQuality (VARCHAR) – Video quality (SD, HD, UHD)
+* NumofProfiles (INT) – Maximum number of profiles allowed
+* NumofSupportDevforViewing (INT) – Number of supported viewing devices
+* NumofSupportDevforDownload (INT) – Number of supported download devices
+* AdSupport (BOOLEAN) – Whether ads are included
+* ContentAccess (TEXT) – Type of content accessible
 
 4️⃣ Content Table
-ContentID (INT, PK) – Unique ID for content
-TitleName (VARCHAR) – Title of the content
-Genre (VARCHAR) – Genre category
-Category (VARCHAR) – Movie or Series
-UnlimitedAccess (BOOLEAN) – Whether it is available for unlimited streaming
+* ContentID (INT, PK) – Unique ID for content
+* TitleName (VARCHAR) – Title of the content
+* Genre (VARCHAR) – Genre category
+* Category (VARCHAR) – Movie or Series
+* UnlimitedAccess (BOOLEAN) – Whether it is available for unlimited streaming
 
 5️⃣ Viewing History Table
-ProfileID (INT, FK) – Profile watching the content
-ContentID (INT, FK) – Content being watched
-LastWatchedDate (DATE) – Last watched date
-Runtime (TIME) – Total runtime watched
+* ProfileID (INT, FK) – Profile watching the content
+* ContentID (INT, FK) – Content being watched
+* LastWatchedDate (DATE) – Last watched date
+* Runtime (TIME) – Total runtime watched
 
 6️⃣ Devices Table
-DeviceID (INT, PK) – Unique ID for the device
-DeviceType (VARCHAR) – Type of device (Mobile, TV, Laptop, etc.)
+* DeviceID (INT, PK) – Unique ID for the device
+* DeviceType (VARCHAR) – Type of device (Mobile, TV, Laptop, etc.)
 
 7️⃣ Payment Methods Table
-PaymentID (INT, PK) – Unique ID for payment method
-CardID (INT) – Unique card identifier
-CardNumber (VARCHAR) – Credit/Debit card number
-CVV (INT) – Security code
-ExpirationDate (DATE) – Expiry date of the card
-BillingAddress (TEXT) – Address associated with the card
+* PaymentID (INT, PK) – Unique ID for payment method
+* CardID (INT) – Unique card identifier
+* CardNumber (VARCHAR) – Credit/Debit card number
+* CVV (INT) – Security code
+* ExpirationDate (DATE) – Expiry date of the card
+* BillingAddress (TEXT) – Address associated with the card
 
 8️⃣ Payment History Table
 PaymentID (INT, FK) – Payment method used
